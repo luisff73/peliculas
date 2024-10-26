@@ -1,1 +1,2 @@
-este es el contenido del fichero robots.txt
+Este es el contenido del fichero robots.txt
+es un fichero de pruebas.
