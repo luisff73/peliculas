@@ -1,0 +1,23 @@
+{
+    "name": "peliculas",
+    "version": "0.1.0",
+    "description": "Ejercicio pruebas peliculas.",
+    "main": "peliculas.js",      "scripts": {
+      "start": "json-server --watch db.json"
+    },
+    "dependencies": {
+      "json-server": "^0.17.0"  
+    },
+    "engines": {
+      "node": ">=14.0.0"  
+    },
+    "repository": {
+      "url": "https://index.html"
+    },
+    "license": "MIT",
+    "keywords": [
+      "json",
+      "server"
+    ]
+  }
+  

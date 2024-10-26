@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Peliculas"> <!-- indica una descripcion de la pagina web -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- adapta la pagina al ancho de la pantalla -->
+    <link rel="stylesheet" href="peliculas.css">
+    <title>Peliculas</title>
+</head>
+
+<body>
+  
+  <h1>Listado de Peliculas</h1>
+ 
+       
+        <form id="formulario">
+          <label for="titulo">Titulo</label>
+          <input type="text" name="titulo" />
+          <label for="genero">Genero</label>
+          <input type="text" name="genero" />
+          <label for="anyo">Año publicación</label>
+          <input type="text" name="anyo" /><br /><br />
+        </form>
+    
+        <div id="divpeliculas" class="flex-container"></div>
+
+        <div id="botones">
+        <input type="button" name="boton" value="Crear Pelicula" onclick="crear()" />  <!--llama a la funcion crear()-->
+        <input type="button" name="boton" value="Borrar Peliculas" onclick="borrarTodos()" /> <!--llama a la funcion borrarTodos()-->
+        <input type="button" name="boton" value="Recarga Peliculas" onclick="carga_peliculas()" /> <!--llama a la funcion cargar()-->
+        </div>
+               
+    <script src="peliculas.js"></script>
+   
+</body>
+</html>

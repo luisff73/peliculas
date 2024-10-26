@@ -1,0 +1,30 @@
+{
+  "peliculas": [
+    {
+      "id": "2",
+      "title": "Titulo pelicula 2",
+      "content": "genero de comedia",
+      "anyo": "1989"
+    },
+    {
+      "id": "38ed",
+      "title": "ssadf",
+      "content": "3f23",
+      "anyo": "2015"
+    },
+    {
+      "id": "7861",
+      "title": "asdf",
+      "content": "acsd",
+      "anyo": "2001",
+      "imagen": "imagen.webp"
+    },
+    {
+      "id": "c588",
+      "title": "El sargento de Hierro",
+      "content": "Accion",
+      "anyo": "2001",
+      "imagen": "imagen.webp"
+    }
+  ]
+}
